@@ -1,0 +1,32 @@
+start_date,end_date,term,label,blocks_events
+2026-08-14,2026-08-14,Fall 2026,International student orientation,no
+2026-08-17,2026-08-20,Fall 2026,Orientation events and MODs for incoming students,yes
+2026-08-24,2026-08-24,Fall 2026,Fall course registration opens,no
+2026-08-24,2026-08-27,Fall 2026,Second block of orientation events and MODs,yes
+2026-09-01,2026-09-01,Fall 2026,Orientation events; Community Day for all students; preferred registration deadline,yes
+2026-09-02,2026-09-02,Fall 2026,Fall full-term and Fall-1 courses begin,no
+2026-09-07,2026-09-07,Fall 2026,Labor Day; no classes,yes
+2026-09-15,2026-09-15,Fall 2026,Last day to add a Fall-1 or full-semester course,no
+2026-09-22,2026-09-22,Fall 2026,Last day to drop a Fall-1 course without penalty,no
+2026-10-09,2026-10-09,Fall 2026,Fall-1 courses end,no
+2026-10-12,2026-10-16,Fall 2026,Fall-1 final examinations,yes
+2026-10-20,2026-10-25,Fall 2026,October Recess (begins Oct 20 7:30 p.m.; classes resume Oct 26 8:20 a.m.),yes
+2026-10-23,2026-10-23,Fall 2026,Last day to add a Fall-2 course,no
+2026-11-09,2026-11-09,Fall 2026,Last day to drop a Fall-2 course without penalty,no
+2026-11-20,2026-11-29,Fall 2026,November Recess (begins Nov 20 7:30 p.m.; classes resume Nov 30 8:20 a.m.),yes
+2026-12-11,2026-12-14,Fall 2026,Fall-2 and full-term courses end; reading period,yes
+2026-12-15,2026-12-22,Fall 2026,Final examinations,yes
+2026-12-23,2027-01-18,Winter 2026-27,Winter Recess,yes
+2027-01-11,2027-01-11,Spring 2027,Spring course registration opens,no
+2027-01-18,2027-01-18,Spring 2027,Martin Luther King Jr. Day; no classes; spring registration deadline,yes
+2027-01-19,2027-01-19,Spring 2027,Spring-1 and Spring full-term courses begin,no
+2027-01-29,2027-01-29,Spring 2027,Last day to add a Spring-1 or full-semester course,no
+2027-02-01,2027-02-01,Spring 2027,Last day to drop a Spring-1 course without penalty,no
+2027-02-26,2027-02-26,Spring 2027,Spring-1 courses end,no
+2027-03-01,2027-03-05,Spring 2027,Spring-1 final examinations,yes
+2027-03-06,2027-03-21,Spring 2027,Spring Recess (begins Mar 5 7:20 p.m.; courses resume Mar 22 8:30 a.m.),yes
+2027-03-22,2027-03-22,Spring 2027,Courses resume; Spring-2 courses begin,no
+2027-04-02,2027-04-02,Spring 2027,Last day to drop a Spring-2 course without penalty,no
+2027-04-30,2027-05-04,Spring 2027,Courses end; reading period,yes
+2027-05-05,2027-05-12,Spring 2027,Final examinations,yes
+2027-05-24,2027-05-24,Spring 2027,University Commencement,yes

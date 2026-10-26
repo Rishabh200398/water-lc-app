@@ -1,0 +1,74 @@
+{
+  "annual_budget_usd": 15000,
+  "semester_budget_usd": 7500,
+  "wages": {
+    "co_leads": [
+      "Rishabh",
+      "Erika"
+    ],
+    "hourly_rate_usd": 21,
+    "max_hours_per_person_per_week": 10,
+    "typical_hours_per_person_per_week": [
+      3,
+      5
+    ],
+    "working_weeks_per_semester": 14
+  },
+  "catering": {
+    "planning_rate_per_person_usd": 10,
+    "reference": "About $200 for an event with about 20 people",
+    "dietary_policy": "vegetarian or vegan only",
+    "rotate_cuisine": true
+  },
+  "speakers": {
+    "preferred_format": "virtual",
+    "note": "Virtual speakers avoid travel and lodging costs"
+  },
+  "event_length_minutes": 60,
+  "history": {
+    "2025_26": {
+      "annual_budget_usd": 20000,
+      "spent_usd": 13648.42,
+      "projected_usd": 15541.13,
+      "hourly_rate_usd": [
+        17.5,
+        18.0
+      ]
+    }
+  },
+  "note": "Budget was cut from $20,000 (2025-26) to $15,000 (2026-27)",
+  "limits": {
+    "_note": "Hard limits enforced in code (backend/budget.py). App defaults: confirm with Jim and edit here.",
+    "honorarium_max_usd": 300,
+    "travel_max_usd": 500,
+    "lodging_max_per_night_usd": 250,
+    "lodging_max_nights": 1,
+    "catering_max_per_person_usd": 15,
+    "event_max_total_usd": 1000,
+    "keep_reserve_usd": 250,
+    "field_visit_max_total_usd": 2000,
+    "student_transport_max_usd": 1200
+  },
+  "semesters": [
+    {
+      "name": "Fall 2026",
+      "start": "2026-08-31",
+      "end": "2026-12-22",
+      "budget_usd": 7500
+    },
+    {
+      "name": "Spring 2027",
+      "start": "2027-01-11",
+      "end": "2027-05-24",
+      "budget_usd": 7500
+    }
+  ],
+  "marketing_lead_days": 14,
+  "format_rules": {
+    "_note": "Enforced in backend/budget.py validate_lines().",
+    "virtual": "Catering only: no honorarium, travel or lodging.",
+    "student-led webinar": "No honorarium (students present).",
+    "field visit": "Student transport and entry fees allowed; higher event limit.",
+    "in_person_speaker": "Travel (prefer East Coast / NYC-area speakers), lodging only if they live far, honorarium within the limit."
+  }
+}

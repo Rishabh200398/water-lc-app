@@ -1,0 +1,9 @@
+{
+  "_note": "Fill in real addresses locally. Emails only ever open as drafts in your mail app after a co-lead approves them.",
+  "co_leads": [
+    {"name": "Rishabh", "email": ""},
+    {"name": "Erika", "email": ""}
+  ],
+  "advisor": {"name": "Jim Saiers", "role": "Water LC faculty advisor", "email": ""},
+  "ordering": {"name": "Cristina", "role": "places catering orders for Water LC", "email": ""}
+}

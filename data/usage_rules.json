@@ -1,0 +1,26 @@
+{
+  "_note": "Estimates only. OpenAI and Portkey do not report energy or water per request. Edit these assumptions as better data appears.",
+  "price_usd_per_million_tokens": {
+    "_note": "Assumed list prices for gpt-6-luna (not published to the course). Replace with real prices if known.",
+    "input": 1.25,
+    "cached_input": 0.125,
+    "output": 10.0
+  },
+  "energy_wh_per_1k_tokens": {
+    "_note": "Weighted tokens = output + 0.25 x uncached input + 0.05 x cached input. Range spans public per-prompt estimates (Google 2025 ~0.24 Wh per median Gemini prompt; OpenAI 2025 ~0.34 Wh per average ChatGPT query) up to heavier reasoning workloads.",
+    "low": 0.1,
+    "typical": 0.5,
+    "high": 2.0
+  },
+  "water_l_per_kwh": {
+    "_note": "On-site data-center cooling plus water used to generate the electricity (Li et al., 'Making AI Less Thirsty', 2023, range of US averages).",
+    "low": 1.0,
+    "typical": 3.5,
+    "high": 6.0
+  },
+  "comparisons_ml": {
+    "a sip": 30,
+    "a glass of water": 250,
+    "a 16 oz water bottle": 500
+  }
+}
