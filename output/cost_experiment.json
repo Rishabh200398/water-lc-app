@@ -1,0 +1,210 @@
+{
+  "strategist_default": {
+    "runs": 3,
+    "passed": 2,
+    "avg_seconds": 5.8,
+    "avg_requests": 1,
+    "avg_input": 2976,
+    "avg_cached": 2132.6667,
+    "avg_output": 1112.3333,
+    "avg_reasoning": 305,
+    "avg_cost": 0.0124,
+    "avg_water_ml": 2.5023,
+    "rows": [
+      {
+        "ok": true,
+        "note": "3 distinct=True, format respected=True, anchored in brief=True",
+        "seconds": 8.6,
+        "requests": 1,
+        "input": 2976,
+        "cached": 1774,
+        "output": 1138,
+        "reasoning": 305,
+        "cost": 0.013104,
+        "water_ml": 2.673
+      },
+      {
+        "ok": false,
+        "note": "3 distinct=True, format respected=True, anchored in brief=False",
+        "seconds": 8.6,
+        "requests": 1,
+        "input": 2976,
+        "cached": 2850,
+        "output": 1061,
+        "reasoning": 305,
+        "cost": 0.011124,
+        "water_ml": 2.161
+      },
+      {
+        "ok": true,
+        "note": "3 distinct=True, format respected=True, anchored in brief=True",
+        "seconds": 0.2,
+        "requests": 1,
+        "input": 2976,
+        "cached": 1774,
+        "output": 1138,
+        "reasoning": 305,
+        "cost": 0.013104,
+        "water_ml": 2.673
+      }
+    ]
+  },
+  "strategist_low": {
+    "runs": 3,
+    "passed": 3,
+    "avg_seconds": 4.6333,
+    "avg_requests": 1,
+    "avg_input": 2976,
+    "avg_cached": 950,
+    "avg_output": 859.3333,
+    "avg_reasoning": 66,
+    "avg_cost": 0.0112,
+    "avg_water_ml": 2.4733,
+    "rows": [
+      {
+        "ok": true,
+        "note": "3 distinct=True, format respected=True, anchored in brief=True",
+        "seconds": 7.3,
+        "requests": 1,
+        "input": 2976,
+        "cached": 0,
+        "output": 871,
+        "reasoning": 99,
+        "cost": 0.01243,
+        "water_ml": 2.826
+      },
+      {
+        "ok": true,
+        "note": "3 distinct=True, format respected=True, anchored in brief=True",
+        "seconds": 6.5,
+        "requests": 1,
+        "input": 2976,
+        "cached": 2850,
+        "output": 836,
+        "reasoning": 0,
+        "cost": 0.008874,
+        "water_ml": 1.768
+      },
+      {
+        "ok": true,
+        "note": "3 distinct=True, format respected=True, anchored in brief=True",
+        "seconds": 0.1,
+        "requests": 1,
+        "input": 2976,
+        "cached": 0,
+        "output": 871,
+        "reasoning": 99,
+        "cost": 0.01243,
+        "water_ml": 2.826
+      }
+    ]
+  },
+  "catering_default": {
+    "runs": 3,
+    "passed": 3,
+    "avg_seconds": 3.4333,
+    "avg_requests": 4,
+    "avg_input": 18600,
+    "avg_cached": 14116,
+    "avg_output": 892,
+    "avg_reasoning": 438,
+    "avg_cost": 0.0163,
+    "avg_water_ml": 4.758,
+    "rows": [
+      {
+        "ok": true,
+        "note": "Portabello Latin Kitchen: $172.00 of $250.00, 30 portions",
+        "seconds": 9.1,
+        "requests": 4,
+        "input": 18600,
+        "cached": 14116,
+        "output": 892,
+        "reasoning": 438,
+        "cost": 0.016289,
+        "water_ml": 4.758
+      },
+      {
+        "ok": true,
+        "note": "Portabello Latin Kitchen: $172.00 of $250.00, 30 portions",
+        "seconds": 0.6,
+        "requests": 4,
+        "input": 18600,
+        "cached": 14116,
+        "output": 892,
+        "reasoning": 438,
+        "cost": 0.016289,
+        "water_ml": 4.758
+      },
+      {
+        "ok": true,
+        "note": "Portabello Latin Kitchen: $172.00 of $250.00, 30 portions",
+        "seconds": 0.6,
+        "requests": 4,
+        "input": 18600,
+        "cached": 14116,
+        "output": 892,
+        "reasoning": 438,
+        "cost": 0.016289,
+        "water_ml": 4.758
+      }
+    ]
+  },
+  "catering_low": {
+    "runs": 3,
+    "passed": 3,
+    "avg_seconds": 3.0667,
+    "avg_requests": 4,
+    "avg_input": 18538,
+    "avg_cached": 12566,
+    "avg_output": 492,
+    "avg_reasoning": 0,
+    "avg_cost": 0.014,
+    "avg_water_ml": 4.573,
+    "rows": [
+      {
+        "ok": true,
+        "note": "Pitaziki: $227.00 of $250.00, 40 portions",
+        "seconds": 8.0,
+        "requests": 4,
+        "input": 18538,
+        "cached": 12566,
+        "output": 492,
+        "reasoning": 0,
+        "cost": 0.013956,
+        "water_ml": 4.573
+      },
+      {
+        "ok": true,
+        "note": "Pitaziki: $227.00 of $250.00, 40 portions",
+        "seconds": 0.6,
+        "requests": 4,
+        "input": 18538,
+        "cached": 12566,
+        "output": 492,
+        "reasoning": 0,
+        "cost": 0.013956,
+        "water_ml": 4.573
+      },
+      {
+        "ok": true,
+        "note": "Pitaziki: $227.00 of $250.00, 40 portions",
+        "seconds": 0.6,
+        "requests": 4,
+        "input": 18538,
+        "cached": 12566,
+        "output": 492,
+        "reasoning": 0,
+        "cost": 0.013956,
+        "water_ml": 4.573
+      }
+    ]
+  },
+  "rebrainstorm": {
+    "research_scout_avg_cost": 0.0498,
+    "strategist_avg_cost": 0.0129,
+    "rerun_with_new_research": 0.0628,
+    "rerun_reusing_brief": 0.0129,
+    "research_seconds": 33.6,
+    "strategist_seconds": 9.6
+  }
+}

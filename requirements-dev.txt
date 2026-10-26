@@ -1,0 +1,3 @@
+# Only needed to rebuild the report screenshots (scripts/capture.py, demo_run.py, build_report.py)
+websocket-client
+pillow

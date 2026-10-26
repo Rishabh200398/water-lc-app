@@ -1,0 +1,77 @@
+[
+  {
+    "step": "Research scout + Event strategist (3 ideas)",
+    "seconds": 10.1,
+    "stage": "ideas"
+  },
+  {
+    "step": "Speaker scout (YSE alumni shortlist)",
+    "seconds": 6.0,
+    "stage": "speakers"
+  },
+  {
+    "step": "Speaker outreach (invitation email)",
+    "seconds": 8.1,
+    "stage": "invite_review"
+  },
+  {
+    "step": "Coordinator (reads meeting notes)",
+    "seconds": 4.0,
+    "stage": "meeting"
+  },
+  {
+    "step": "Budget analyst + Catering planner",
+    "seconds": 22.1,
+    "stage": "budget_review"
+  },
+  {
+    "step": "Approvals (request to Jim)",
+    "seconds": 6.0,
+    "stage": "jim_review"
+  },
+  {
+    "step": "Jim approved -> Approvals (order to Cristina)",
+    "seconds": 16.1,
+    "stage": "order_review"
+  },
+  {
+    "step": "Marketing (Yale Connect, WhatsApp, poster)",
+    "seconds": 6.0,
+    "stage": "marketing_review"
+  },
+  {
+    "step": "Coordinator (recap)",
+    "seconds": 4.0,
+    "stage": "done"
+  },
+  {
+    "step": "[virtual] Research + 3 ideas",
+    "seconds": 22.2,
+    "stage": "ideas"
+  },
+  {
+    "step": "[virtual] Speaker scout",
+    "seconds": 6.1,
+    "stage": "speakers"
+  },
+  {
+    "step": "[virtual] Invitation",
+    "seconds": 10.1,
+    "stage": "invite_review"
+  },
+  {
+    "step": "[virtual] Coordinator (notes)",
+    "seconds": 4.0,
+    "stage": "meeting"
+  },
+  {
+    "step": "[virtual] Budget + catering",
+    "seconds": 16.1,
+    "stage": "budget_review"
+  },
+  {
+    "step": "Newsletter editor (web research + issue)",
+    "seconds": 22.2,
+    "stage": "review"
+  }
+]

@@ -135,7 +135,7 @@ export function OutboxPage() {
 // ================================================================ usage & water
 
 const LABELS: Record<string, string> = {
-  coordinator: 'Coordinator', strategist: 'Event strategist', speaker_outreach: 'Speaker outreach', budget_analyst: 'Budget analyst',
+  coordinator: 'Coordinator', research_scout: 'Research scout', strategist: 'Event strategist', speaker_scout: 'Speaker scout', speaker_outreach: 'Speaker outreach', budget_analyst: 'Budget analyst',
   catering_planner: 'Catering planner', approvals: 'Approvals & email', marketing: 'Marketing', newsletter_editor: 'Newsletter editor',
 }
 

@@ -20,3 +20,8 @@ node_modules/
 
 # App state (rebuilt from data/ on first run)
 state/
+
+# Report build artifacts (images are embedded in report.html / slides.html)
+output/screenshots/
+output/screenshots_jpg/
+output/slides_img/

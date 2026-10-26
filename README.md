@@ -79,6 +79,13 @@ Code in `backend/`: `agents.py` (agents, tools, output types), `workflow.py` (th
 
 Every agent run records input, **cached input** and output (and reasoning) tokens from the API. Each agent's instructions start with the same ~1,000-token handbook (`prompts/handbook.md`) plus a fixed role prompt, sent with an OpenAI prompt-cache key, so repeat runs read most of their input from cache (verified: 4,013 of 4,054 input tokens cached on a repeat call). The **Usage & water** page shows totals, per-agent breakdowns, estimated cost, and **estimated water**: tokens → energy (Wh) → litres (data-center cooling + electricity generation), shown as a low / typical / high range. All assumptions are in `data/usage_rules.json`; they are estimates, since OpenAI doesn't publish per-request energy or water.
 
+## Report, slides and checks
+
+- `report.html` and `slides.html` are self-contained (screenshots embedded). Rebuild with `.venv/bin/python scripts/build_report.py`.
+- `scripts/safety_checks.py`: 16 code-level safety checks, no AI calls (`.venv/bin/python scripts/safety_checks.py`).
+- `scripts/demo_run.py`: the recorded end-to-end demo (resets data, real agent calls, screenshots via headless Chrome; needs `pip install -r requirements-dev.txt`).
+- `scripts/cost_experiment.py`: default vs low reasoning effort on identical inputs → `output/cost_experiment.json`.
+
 ## Data (`data/`)
 
 YSE 2026–27 academic calendar · caterer list · budget rules and limits · 2025–26 past events and wages (past co-leads anonymized) · hours by task from last year's timesheets · Fall Splash member-interest word cloud · newsletter template · this year's events · contacts (blank; fill locally) · **sample** alumni speakers with locations (fictional, marked "(sample)") · **sample** caterer menus with item prices · YSE learning communities (from the YSE website) · the co-leads' email voice guide · demo files for the safety tests.

@@ -46,9 +46,16 @@ def _instructions(role: str) -> str:
     return (PROMPTS / "handbook.md").read_text() + "\n\n" + (PROMPTS / f"{role}.md").read_text()
 
 
+# Lower reasoning effort where scripts/cost_experiment.py showed no quality loss (all checks passed,
+# 10-14% cheaper per run, up to 45% fewer output tokens).
+LOW_EFFORT = {"strategist", "catering_planner"}
+
+
 def _settings(role: str) -> OpenAIResponsesModelSettings:
-    return OpenAIResponsesModelSettings(openai_prompt_cache_key=f"waterlc-{role}",
-                                        openai_cache_instructions=True)
+    s = OpenAIResponsesModelSettings(openai_prompt_cache_key=f"waterlc-{role}", openai_cache_instructions=True)
+    if role in LOW_EFFORT:
+        s["openai_reasoning_effort"] = "low"
+    return s
 
 
 # ================================================================ output shapes

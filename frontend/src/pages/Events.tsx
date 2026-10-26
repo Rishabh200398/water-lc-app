@@ -379,7 +379,8 @@ function MeetingStep({ e, busy, act }: { e: any; busy: boolean; act: any }) {
   const toast = useToast()
   const m = e.meeting
   const [notes, setNotes] = useState(e.meeting_raw || '')
-  const okDates: string[] = (m?.date_checks || []).filter((c: any) => c.ok).map((c: any) => c.date)
+  const open: string[] = (m?.date_checks || []).filter((c: any) => c.ok).map((c: any) => c.date)
+  const okDates: string[] = e.date && open.includes(e.date) ? [e.date, ...open.filter(d => d !== e.date)] : open  // planned date first
   const [f, setF] = useState({
     date: okDates[0] || e.date || '', time: m?.proposed_time || '12:00-13:00', location: e.location || '',
     mode: m?.mode && m.mode !== 'unknown' ? m.mode : (e.speaker?.suggested_mode || 'virtual'),

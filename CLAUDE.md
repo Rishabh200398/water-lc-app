@@ -63,3 +63,8 @@ Not just an "event planner" or "email drafter" (those risk the overdone-idea cap
 
 ## Redesigned event flow (Oct 25)
 Questions (format / virtual-in person / collab yes-open-no / timing / headcount / notes) → Research scout (web news + interests + done + locked) → strategist gives 3 ideas → Speaker scout (YSE alumni, East Coast first) → invite in the co-leads' voice (`data/my_voice.md`) → meeting notes → confirm date = idea LOCKED → budget (format/mode rules in code) → itemized catering from `data/caterer_menus.csv` (sample prices) → Jim → Cristina → marketing → wrap-up. 10 agents. Learning communities in `data/learning_communities.csv`.
+
+## Submission status (Oct 25, night)
+- Public repo: https://github.com/Rishabh200398/water-lc-app. report.html (14 printed pages) and slides.html (10 slides, reveal.js CDN) built by scripts/build_report.py from real logs; repo URL + clone command in both.
+- Per the professor (Oct 25): submit ONLY report.html, slides.html and an optional video on Canvas. Nothing else.
+- Strategist and catering planner run at low reasoning effort (cost experiment: no measurable quality loss).
